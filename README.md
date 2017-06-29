@@ -43,6 +43,10 @@ chmod +x isorespin.sh
 ./isorespin.sh -i [your iso] -k v4.11.7
 ```
 
+Executing `uname -r` in the terminal of a live usb session should ouput you the upgraded kernel.
+
+I have also tried this method and it is i think the most elegant.
+
 and make it bootable with unetbootin
 
 - 3) Classic install
