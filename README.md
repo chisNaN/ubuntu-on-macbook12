@@ -23,7 +23,7 @@ In all cases grab the [ubuntu iso](http://releases.ubuntu.com) and install [unet
 
 As of 29/06/2017 ubuntu 17.04 ships **with 4.10 kernel version**
 
-This is an important point because with kernel under 4.11 internal SSD won't be recognized and **THEREFORE YOU WON'T BE ABLE TO INSTALL UBUNTU** on the ssd
+This is an important point because with kernel under 4.11 internal **SSD WON'T BE RECOGNIZED** and therefore **YOU WON'T BE ABLE TO INSTALL UBUNTU** on the ssd
 
 :bulb: From there you have 3 options (from most simple to most tricky)
 
