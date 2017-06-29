@@ -1,7 +1,7 @@
 # Ubuntu on macbook 12 (mid 2017)
 
 >This repo is intented to be a "noob tutorial" to install Ubuntu 17.04 on Macbook 12 version mid 2017 
-[MacBook10,1]https://en.wikipedia.org/wiki/MacBook_\(Retina\)`#Technical_Specifications)
+[MacBook10,1](https://en.wikipedia.org/wiki/MacBook_(Retina)#Technical_Specifications)
 
 :bulb: First warning!
 
@@ -32,6 +32,7 @@ This is an important point because with kernel under 4.11 internal SSD won't be 
 
 - 1) Classic install
 
+Create the bootable ubuntu usb with unetbootin.
 Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right.
 Choose "Try ubuntu"
 Launch a terminal and execute the following commands
