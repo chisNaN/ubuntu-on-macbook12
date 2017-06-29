@@ -1,0 +1,16 @@
+# MacBookPro13,* (Late 2016), MacBookPro14,* (Mid 2017)
+evdev:name:Apple SPI Touchpad:dmi:*:svnAppleInc.:pnMacBookPro13,1:*
+evdev:name:Apple SPI Touchpad:dmi:*:svnAppleInc.:pnMacBookPro13,2:*
+evdev:name:Apple SPI Touchpad:dmi:*:svnAppleInc.:pnMacBookPro14,1:*
+evdev:name:Apple SPI Touchpad:dmi:*:svnAppleInc.:pnMacBookPro14,2:*
+ EVDEV_ABS_00=::96
+ EVDEV_ABS_01=::94
+ EVDEV_ABS_35=::96
+ EVDEV_ABS_36=::94
+
+evdev:name:Apple SPI Touchpad:dmi:*:svnAppleInc.:pnMacBookPro13,3:*
+evdev:name:Apple SPI Touchpad:dmi:*:svnAppleInc.:pnMacBookPro14,3:*
+ EVDEV_ABS_00=::96
+ EVDEV_ABS_01=::95
+ EVDEV_ABS_35=::96
+ EVDEV_ABS_36=::95
