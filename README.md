@@ -21,15 +21,33 @@ You need a usb hub with at least 3 ports available for the keyboard + the mouse 
 
 ### Install Ubuntu
 
-In all cases grab the [ubuntu iso](http://releases.ubuntu.com/zesty) and install [unetbootin](https://unetbootin.github.io) (which i generally execute on my mac)
+In all cases grab the [ubuntu iso](http://releases.ubuntu.com) and install [unetbootin](https://unetbootin.github.io) (which i generally execute on my mac)
 
 As of 29/06/2017 ubuntu 17.04 ships **with 4.10 kernel version**
 
 This is an important point because with kernel under 4.11 internal SSD won't be recognized and **THEREFORE YOU WON'T BE ABLE TO INSTALL UBUNTU** on the ssd
 
-:bulb: From there you have 3 options
+:bulb: From there you have 3 options (from most simple to most tricky)
 
-- 1) Classic install
+- 1) Wait for future (or if it is already released when you read this tutorial) Ubuntu artful aardvark to be released that will implement 4.11 kernel version then make a bootable usb like you would do with unetbootin
+
+- 2) If you can already run a ~30 go Ubuntu system somewhere
+
+Make an image of Ubuntu with kernel upgraded.
+
+To do so download [isorespin.sh](http://www.cnx-software.com/2017/03/29/isorespin-sh-script-updates-ubuntu-iso-files-with-mainline-kernel)
+
+(install propable dependencies)
+
+```bash
+sudo apt install xorriso
+chmod +x isorespin.sh
+./isorespin.sh -i [your iso] -k v4.11.7
+```
+
+and make it bootable with unetbootin
+
+- 3) Classic install
 
 Create the bootable ubuntu usb with unetbootin.
 Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right.
@@ -69,25 +87,6 @@ apt update
 apt upgrade -y
 reboot
 ```
-
-- 2) If you can already run a "virgin" ~30 go Ubuntu partition then you can:
-
-Make an image of Ubuntu with kernel upgraded.
-
-To do so download [isorespin.sh](http://www.cnx-software.com/2017/03/29/isorespin-sh-script-updates-ubuntu-iso-files-with-mainline-kernel)
-
-(install propable dependencies)
-
-```bash
-sudo apt install xorriso
-chmod +x isorespin.sh
-./isorespin.sh -i [your iso] -k v4.11.7
-```
-
-and make it bootable with unetbootin
-
-
-- 3) Wait for later Ubuntu artful aardvark to be released that will ship 4.11 kernel version then make a bootable usb like you would do with unetbootin
 
 ### Solve the keyboard and touchpad recognition problem
 
