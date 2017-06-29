@@ -6,8 +6,8 @@
 
 I tried this installation with a **windows bootcamp partition** already installed alongside
 **BUT I COULD NOT BOOT ON IT ANYMORE AFTER** (though the datas of the partition were not overwritten).
-I suspect more a boot reFind related error:
-reFind displayed me that error `Blinitializelibrary failed 0xc00000bb`
+I suspect more a boot reFind related error,
+reFind displayed me that error: `Blinitializelibrary failed 0xc00000bb`
 
 :bulb: Second warning!
 
