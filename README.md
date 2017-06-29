@@ -80,6 +80,7 @@ To do so download [isorespin.sh](http://www.cnx-software.com/2017/03/29/isorespi
 
 ```bash
 sudo apt install xorriso
+chmod +x isorespin.sh
 ./isorespin.sh -i [your iso] -k v4.11.7
 ```
 
