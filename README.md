@@ -142,4 +142,4 @@ but it seems i can get them back (without recompiling anything) if i boot in rec
 Also if one reboots letting default ubuntu selection one can change screen resolution (actually not the resolution itself but the range cursor below) and screen brightness
 but in recovery mode it is not the case.
 
->Conclusion is to always boot in "recovery mode" in order to get keyboard and touchpad recognized and working with a default screen resolution and brightness
+>Conclusion is to always boot in "recovery mode" in order to get keyboard and touchpad recognized and working with a "static" screen resolution and brightness
