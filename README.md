@@ -22,13 +22,13 @@ You need a usb hub with at least 3 ports available for the keyboard + the mouse 
 
 ### Install Ubuntu
 
-:bulb: From there you have 3 options
-
-In all case grab the [ubuntu iso](http://releases.ubuntu.com/zesty) and install [unetbootin](https://unetbootin.github.io) (which i generally execute on my mac)
+In all cases grab the [ubuntu iso](http://releases.ubuntu.com/zesty) and install [unetbootin](https://unetbootin.github.io) (which i generally execute on my mac)
 
 As of 29/06/2017 ubuntu 17.04 ships **with 4.10 kernel version**
 
 This is an important point because with kernel under 4.11 internal SSD won't be recognized and **THEREFORE YOU WON'T BE ABLE TO INSTALL UBUNTU** on the ssd
+
+:bulb: From there you have 3 options
 
 - 1) Classic install
 
