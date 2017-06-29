@@ -13,8 +13,6 @@ reFind displayed me that error `Blinitializelibrary failed 0xc00000bb`
 
 Contrarly to what it is said [here](https://gist.github.com/roadrunner2/1289542a748d9a104e7baec6a92f9cd7) or [here](https://github.com/Dunedan/mbp-2016-linux) about WIFI stability on previous macbook models mine seem to behave natively pretty well. Letting ping google.com in a console show most of the time 30ms (on a poor connection) with no disconnection.
 
-Also screen brightness and resolution control work out of the box also on that model.
-
 ### Before starting
 
 You need a usb hub with at least 3 ports available for the keyboard + the mouse + ubuntu live usb
