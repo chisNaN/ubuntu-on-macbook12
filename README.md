@@ -34,8 +34,9 @@ This is an important point because with kernel under 4.11 internal SSD won't be 
 
 Create the bootable ubuntu usb with unetbootin.
 Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right.
-Choose "Try ubuntu"
-Launch a terminal and execute the following commands
+Choose "Try ubuntu".
+
+Once the in the live session launch a terminal and execute the following commands
 
 ```bash
 sudo su
