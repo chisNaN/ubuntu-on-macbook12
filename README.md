@@ -1,7 +1,6 @@
 # Ubuntu on macbook 12 (mid 2017)
 
->This repo is intented to be a "noob tutorial" to install Ubuntu 17.04 on Macbook 12 version mid 2017 
-[MacBook10,1](https://en.wikipedia.org/wiki/MacBook_(Retina)#Technical_Specifications)
+>Here is a "noob tutorial" to install Ubuntu 17.04 on Macbook 12 version mid 2017 [MacBook10,1](https://en.wikipedia.org/wiki/MacBook_(Retina)#Technical_Specifications)
 
 :bulb: First warning!
 
@@ -139,6 +138,7 @@ And voilà! Your keyboard and touchpad should be working at next login!
 
 Indeed after several reboots in "ubuntu default mode" i start to lose touchpad and then keyboard capabilities
 but it seems i can get them back (without recompiling anything) if i boot in recovery mode and without executing any commands (I don't know if that kind be related?)
+
 Also if one reboots letting default ubuntu selection one can change screen resolution (actually not the resolution itself but the range cursor below) and screen brightness
 but in recovery mode it is not the case.
 
