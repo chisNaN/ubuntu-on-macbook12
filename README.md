@@ -79,7 +79,10 @@ To do so download [isorespin.sh](http://www.cnx-software.com/2017/03/29/isorespi
 
 (install propable dependencies)
 
-`isorespin.sh -i [your iso] -k v4.11.7`
+```bash
+sudo apt install xorriso
+./isorespin.sh -i [your iso] -k v4.11.7
+```
 
 and make it bootable with unetbootin
 
