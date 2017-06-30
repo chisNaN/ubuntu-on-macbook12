@@ -136,7 +136,7 @@ And voilà! Your keyboard and touchpad should be working at next login!
 
 ### Booting Ubuntu
 
-:bulb: I noticed a strange demeanor (using ubuntu) depenging surely on how one reboots.
+:bulb: I noticed a strange demeanor (using the following install of ubuntu) depenging surely on how one reboots.
 
 Indeed after several reboots in "ubuntu default mode" i start to lose touchpad and then keyboard capabilities
 but it seems i can get them back (without recompiling anything) if i boot in recovery mode and without executing any commands (I don't know if that kind be related?)
