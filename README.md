@@ -47,7 +47,7 @@ Make the generated iso bootable with unetbootin.
 Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right.
 Choose "Install ubuntu".
 
-(I have also tried this method and it is i think the most elegant.)
+(I have also tried this method and it is i think the smartest.)
 
 - 3) Classic install
 
