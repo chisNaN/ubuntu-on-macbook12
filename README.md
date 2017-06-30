@@ -43,7 +43,8 @@ chmod +x isorespin.sh
 ./isorespin.sh -i [your iso] -k v4.11.7
 ```
 
-make the generated iso bootable with unetbootin
+make the generated iso bootable with unetbootin.
+Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right. Choose "Try ubuntu".
 
 Executing `uname -r` in the terminal of a live usb session should ouput you the upgraded kernel.
 
@@ -72,8 +73,7 @@ Once ubuntu installed you will have to **REBOOT IN RECOVERY MODE** (default opti
 
 At next boot the drive won't be recognized again so you will have to enter the same command above (without sudo) in the `>initramfs` console.
 
-Then hit CTRL+d to exit and it should manage to boot and mount the drive (recall this step because you may have to do it again)
-(It is explained [here](https://www.debian-fr.org/t/probleme-dualboot-sur-macos/73496/15) for french people)
+Then hit CTRL+d to exit and it should manage to boot and mount the drive. Recall this step because you may have to do it again. (It is explained [here](https://www.debian-fr.org/t/probleme-dualboot-sur-macos/73496/15) for french people)
 
 Once ubuntu rebooted with discs recognized you may **update the kernel to 4.11.7 version** in order to solve once for all the problem of internal ssd.
 To do so launch a terminal and execute:
