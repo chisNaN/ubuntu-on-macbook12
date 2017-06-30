@@ -44,11 +44,9 @@ chmod +x isorespin.sh
 ```
 
 make the generated iso bootable with unetbootin.
-Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right. Choose "Try ubuntu".
+Plug the usb, boot your mac holding "alt" stroke and choose EFI boot at the right. Choose "Install ubuntu".
 
-Executing `uname -r` in the terminal of a live usb session should ouput you the upgraded kernel.
-
-I have also tried this method and it is i think the most elegant.
+(I have also tried this method and it is i think the most elegant.)
 
 - 3) Classic install
 
