@@ -1,6 +1,6 @@
 # Ubuntu on macbook 12 (mid 2017)
 
-> ## Here is a "noob tutorial" to install Ubuntu 17.04 on Macbook 12 version mid 2017 [MacBook10,1](https://en.wikipedia.org/wiki/MacBook_(Retina)#Technical_Specifications)
+> ## Here is a "for noob tutorial" to install Ubuntu 17.04 on Macbook 12 version mid 2017 [MacBook10,1](https://en.wikipedia.org/wiki/MacBook_(Retina)#Technical_Specifications)
 
 :bulb: First warning!
 
