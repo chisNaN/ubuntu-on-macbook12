@@ -19,7 +19,7 @@ You need a usb hub with at least 3 ports available for the keyboard + the mouse 
 
 ### Install Ubuntu
 
-In all cases grab the [ubuntu iso](http://releases.ubuntu.com) and install [unetbootin](https://unetbootin.github.io) (which i generally execute on my macOs partition)
+In all cases grab the [ubuntu iso](http://releases.ubuntu.com) and install [unetbootin](https://unetbootin.github.io) (which I generally execute on my macOs partition)
 
 As of 29/06/2017 ubuntu 17.04 ships **with 4.10 kernel version**
 
@@ -138,9 +138,9 @@ And voilà! Your keyboard and touchpad should be working at next login!
 :bulb: I noticed a strange demeanor (using the following install of ubuntu) depending surely on how one reboots.
 
 Indeed after several reboots in "ubuntu default mode" I start to lose touchpad and then keyboard capabilities
-but it seems i can get them back (without recompiling anything) if I boot in recovery mode and without executing any commands (I don't know if it can be related?)
+but it seems I can get them back (without recompiling anything) if I boot in recovery mode and without executing any commands (I don't know if it can be related?)
 
 Also if one reboots letting default ubuntu selection one can change screen resolution (actually not the resolution itself but the range cursor below) and screen brightness
 but in recovery mode it is not the case.
 
->Conclusion is to always boot in "recovery mode" in order to get keyboard and touchpad recognized and work with a "static" screen resolution and brightness.
+>Conclusion is to always boot in "recovery mode" in order to get keyboard and touchpad recognized but having "static" screen resolution and brightness.
