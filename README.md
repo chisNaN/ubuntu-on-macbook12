@@ -125,10 +125,7 @@ CTRL+x (to exit)
 ```bash
 sudo su
 echo 'add_drivers+="applespi intel_lpss_pci spi_pxa2xx_platform appletb"' >> /etc/initramfs-tools/modules
-cd /boot
-mv initrd.`img-uname -r`{,.orig}
-mkinitramfs -o initrd.img-$(uname -r)
-// update-initramfs -u (instead of the 2 commands above)
+update-initramfs -u
 reboot
 ```
 
