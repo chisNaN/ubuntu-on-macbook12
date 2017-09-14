@@ -112,7 +112,7 @@ popd
 
 `sudo nano /etc/udev/hwdb.d/61-evdev-local.hwdb`
 
-and copy paste the content of the 61-evdev-local.hwdb file of this repository.
+and copy paste the content of the `61-evdev-local.hwdb` file of this repository.
 CTRL+o (to write)
 CTRL+x (to exit)
 
